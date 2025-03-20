@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Salgados</title>
+
+  <style>
+    body {
+      font-family: serif;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: callapse;
+    }
+    
+    h1 {
+      color: darkgray;
+      /*cor do título*/
+    }
+
+    th {
+      color: darkblue;
+      /*cor do texto dentro da tabela*/
+    }
+
+    p {
+      color: blue;
+      /*cor do parágrafo*/
+    }
+
+    body {
+      background-color:beige;
+    }
+ th{background-color:tan;}
+    th,
+    td {
+      border: 2px solid black;
+      padding: 8px;
+      text-align: center;
+    }
+
+
+    img {
+      width: 175px;
+      height: 130px;
+      margin: 0px;
+    }
+  </style>
+
+</head>
+
+<body>
+  <img id='banner' src="foto.png" id='foto' style="/*width: 100%;*/">
+    <h1>Conheça o um dos mais deliciosos salgados do empreendimento</h1>
+
+  <table>
+    <thead>
+      <tr>
+        <th colspan="3">veja nossos produtos</th>
+      </tr>
+      <tr>
+        <th>torta(a especialidade da casa)</th>
+        <th>Pastel</th>
+        <th>salgado</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr>
+        <td><img
+            src="https://s2-receitas.glbimg.com/2iR6e3M_vwOw1Wwb9AJNxwu6Siw=/0x0:984x612/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_1f540e0b94d8437dbbc39d567a1dee68/internal_photos/bs/2021/q/W/eTsNWhTeai02Y0at4Q0g/torta-de-maca-do-rodrigo-hilbert-e-crocante-por-fora-e-fofinha-por-dentro.jpg"><a
+            href="tortademaca.html">
+            <li>clique aqui para obter a receta
+          </a></li>
+        </td>
+        <td><img src="https://img.estadao.com.br/resources/jpg/8/3/1473369914238.jpg"><a
+          href="pastel.html">
+          <li>clique aqui para obter a receta
+        </a></li></td>
+        <td><img
+            src="https://i.ytimg.com/vi/WqUQSC0YClk/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLCI1Mds_Okt3MpJC24Q6Kq8RQi10Q"><a
+            href="salgados.html">
+            <li>clique aqui para obter a receta
+          </a></li>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  <p> aqui vc vai escolher o melhor salgado,pastel e coximha do empreendimento</p>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/MEXZ_JIAWws?si=6M7VyS1uUortbdSv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+  <script src='script.js'>
+
+    const img_banner = document.getElementById('banner');
+    alert(img_banner.setofHeight + 'px')
+    
+    function AjustarImg() {
+      
+    }
+
+    window.addEventListener('resize', AjustarImg);
+  </script>
+  
+</body>
+
+</html>
+
